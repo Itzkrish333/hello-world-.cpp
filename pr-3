@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x,y,z,n=1;
+    
+    for(x=1;x<5;x++)
+    {
+            for(y=x;y<5;y++)
+            {
+                    cout<<"  ";
+            }
+            
+            for(z=1;z<=x;z++)
+            {
+                    cout<<n<<"  ";
+                    n++;
+            }
+            cout<<endl;
+    }return 0;
+}
